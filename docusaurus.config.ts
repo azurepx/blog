@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const site = {
   name: 'Azure PX',
-  url: 'azure-px.github.io',
+  url: 'azurepx.github.io',
   description: `Azure PX is a collection of Azure's`
 }
 
