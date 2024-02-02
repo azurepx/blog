@@ -1,5 +1,6 @@
 ---
 title: Markdown blog truncation example
+authors: azurep
 ---
 
 All these will be part of the blog post summary.
