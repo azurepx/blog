@@ -104,16 +104,12 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Leetcode',
-              href: 'https://leetcode.com/azurepx',
-            },
-            {
               label: 'Github',
-              href: 'https://github.com/azurepx',
+              href: 'https://github.com/azurepx'
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/azureppx',
+              href: 'https://twitter.com/azureppx'
             },
             {
               label: 'Juejin',
@@ -122,23 +118,35 @@ const config: Config = {
             {
               label: 'Dev',
               href: 'https://dev.to/azurep'
-            }
+            },
+            {
+              label: 'MtF Hub',
+              href: 'https://hub.mtf.party'
+            },
           ],
         },
         {
-          title: 'More',
+          title: 'Tools',
           items: [
             {
               label: 'MtF Wiki',
               href: 'https://mtf.wiki'
             },
             {
+              label: '2345 LGBT',
+              href: 'https://2345.lgbt/zh-cn/'
+            },
+            {
+              label: 'Gender Dysphoria Bible',
+              href: 'https://genderdysphoria.fyi'
+            },
+            {
               label: 'Hormone Converter',
-              href: 'https://mtf.wiki/zh-cn/converter/',
+              href: 'https://mtf.wiki/zh-cn/converter/'
             },
             {
               label: 'Cup Calculator',
-              href: 'https://mtf.wiki/zh-cn/cup-calculator/',
+              href: 'https://mtf.wiki/zh-cn/cup-calculator/'
             },
           ],
         },
