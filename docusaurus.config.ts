@@ -4,9 +4,9 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 
 const site = {
-  name: 'Azure PX',
+  name: 'Azure',
   url: 'azurepx.com',
-  description: `Azure PX is a collection of Azure's`
+  description: ``
 }
 
 const config: Config = {
@@ -32,27 +32,30 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans'],
   },
 
   presets: [
     [
       'classic',
       {
-        docs: {
-          sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        // docs: {
+        //   sidebarPath: './sidebars.ts',
+        //   showLastUpdateTime: true,
+        //   // Please change this to your repo.
+        //   // Remove this to remove the "edit this page" links.
+        //   // editUrl:
+        //   //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        // },
+        docs: false,
         blog: {
+          routeBasePath: '/',
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -65,21 +68,21 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: `${site.name}`,
       logo: {
-        alt: 'My Site Logo',
+        alt: `Azure's Logo`,
         src: 'img/logo.svg',
       },
       items: [
+        // {to: '/', label: 'Blog', position: 'left'},
+        // {
+        //   type: 'docSidebar',
+        //   sidebarId: 'tutorialSidebar',
+        //   position: 'left',
+        //   label: 'Tutorial',
+        // },
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
-        },
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/azurepx/blog',
           label: 'GitHub',
           position: 'right',
         },
@@ -91,44 +94,64 @@ const config: Config = {
         {
           title: 'Docs',
           items: [
+            // {
+            //   label: 'Tutorial',
+            //   to: '/docs/intro',
+            // },
+          ],
+        },
+        {
+          title: '社区',
+          items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Github',
+              href: 'https://github.com/azurepx'
+            },
+            {
+              label: '掘金',
+              href: 'https://juejin.cn/user/4251147222122916'
+            },
+            {
+              label: 'Dev',
+              href: 'https://dev.to/azurep'
+            },
+            {
+              label: 'X',
+              href: 'https://twitter.com/azureppx'
+            },
+            {
+              label: 'MtF Hub',
+              href: 'https://hub.mtf.party'
             },
           ],
         },
         {
-          title: 'Community',
+          title: '工具',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'MtF Wiki',
+              href: 'https://mtf.wiki'
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: '2345 LGBT',
+              href: 'https://2345.lgbt/zh-cn/'
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
+              label: '性别焦虑指南',
+              href: 'https://genderdysphoria.fyi'
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: '激素转换器',
+              href: 'https://mtf.wiki/zh-cn/converter/'
+            },
+            {
+              label: '罩杯计算器',
+              href: 'https://mtf.wiki/zh-cn/cup-calculator/'
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © 2017 - ${new Date().getFullYear()} ${site.name}. Built with ❤️.`,
     },
     prism: {
       theme: prismThemes.github,
