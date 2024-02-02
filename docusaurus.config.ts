@@ -32,8 +32,8 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans'],
   },
 
   presets: [
@@ -101,23 +101,23 @@ const config: Config = {
           ],
         },
         {
-          title: 'Community',
+          title: '社区',
           items: [
             {
               label: 'Github',
               href: 'https://github.com/azurepx'
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/azureppx'
-            },
-            {
-              label: 'Juejin',
+              label: '掘金',
               href: 'https://juejin.cn/user/4251147222122916'
             },
             {
               label: 'Dev',
               href: 'https://dev.to/azurep'
+            },
+            {
+              label: 'X',
+              href: 'https://twitter.com/azureppx'
             },
             {
               label: 'MtF Hub',
@@ -126,7 +126,7 @@ const config: Config = {
           ],
         },
         {
-          title: 'Tools',
+          title: '工具',
           items: [
             {
               label: 'MtF Wiki',
@@ -137,15 +137,15 @@ const config: Config = {
               href: 'https://2345.lgbt/zh-cn/'
             },
             {
-              label: 'Gender Dysphoria Bible',
+              label: '性别焦虑指南',
               href: 'https://genderdysphoria.fyi'
             },
             {
-              label: 'Hormone Converter',
+              label: '激素转换器',
               href: 'https://mtf.wiki/zh-cn/converter/'
             },
             {
-              label: 'Cup Calculator',
+              label: '罩杯计算器',
               href: 'https://mtf.wiki/zh-cn/cup-calculator/'
             },
           ],
