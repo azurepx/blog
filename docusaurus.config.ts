@@ -82,7 +82,7 @@ const config: Config = {
         //   label: 'Tutorial',
         // },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/azurepx/blog',
           label: 'GitHub',
           position: 'right',
         },
