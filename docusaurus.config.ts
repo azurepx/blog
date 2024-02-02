@@ -68,7 +68,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: `Azure's`,
+      title: `${site.name}`,
       logo: {
         alt: `Azure's Logo`,
         src: 'img/logo.svg',
@@ -94,44 +94,56 @@ const config: Config = {
         {
           title: 'Docs',
           items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
+            // {
+            //   label: 'Tutorial',
+            //   to: '/docs/intro',
+            // },
           ],
         },
         {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Leetcode',
+              href: 'https://leetcode.com/azurepx',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Github',
+              href: 'https://github.com/azurepx',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/azureppx',
             },
+            {
+              label: 'Juejin',
+              href: 'https://juejin.cn/user/4251147222122916'
+            },
+            {
+              label: 'Dev',
+              href: 'https://dev.to/azurep'
+            }
           ],
         },
         {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: '/',
+              label: 'MtF Wiki',
+              href: 'https://mtf.wiki'
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Hormone Converter',
+              href: 'https://mtf.wiki/zh-cn/converter/',
+            },
+            {
+              label: 'Cup Calculator',
+              href: 'https://mtf.wiki/zh-cn/cup-calculator/',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © 2017 - ${new Date().getFullYear()} ${site.name}. Built with ❤️.`,
     },
     prism: {
       theme: prismThemes.github,
