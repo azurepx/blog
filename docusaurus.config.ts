@@ -4,9 +4,9 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 
 const site = {
-  name: 'Azure PX',
+  name: 'Azure',
   url: 'azurepx.com',
-  description: `Azure PX is a collection of Azure's`
+  description: ``
 }
 
 const config: Config = {
@@ -68,7 +68,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: `Azure's home`,
+      title: `Azure's`,
       logo: {
         alt: `Azure's Logo`,
         src: 'img/logo.svg',
