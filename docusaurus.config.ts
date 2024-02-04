@@ -149,6 +149,19 @@ const config: Config = {
             },
           ],
         },
+        {
+          title: 'Others',
+          items: [
+            {
+              label: 'Tags',
+              to: 'docs/tags'
+            },
+            {
+              label: 'Blog',
+              to: '/'
+            },
+          ],
+        },
       ],
       copyright: `Copyright © 2017 - ${new Date().getFullYear()} ${site.name}. Built with ❤️.`,
     },
