@@ -1,6 +1,9 @@
 ---
 title: "1. Two Sum"
+tags: ['array', 'hashmap']
 ---
+
+[![Problem on Leetcode](https://img.shields.io/badge/leetcode-sign)](https://leetcode.com/problems/two-sum/)
 
 ![easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen.svg)
 <!-- ![medium](https://img.shields.io/badge/Difficulty-Medium-yellow.svg) -->
