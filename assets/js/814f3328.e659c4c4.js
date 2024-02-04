@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Coming out","permalink":"/2023/10/16/coming-out","unlisted":false},{"title":"Time","permalink":"/2018/11/08/time","unlisted":false}]}')}}]);
