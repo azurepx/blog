@@ -126,7 +126,7 @@ const config: Config = {
           ],
         },
         {
-          title: 'Tool',
+          title: 'Tools',
           items: [
             {
               label: 'MtF Wiki',
