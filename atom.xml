@@ -25,6 +25,7 @@
             <email>azurepan213@gmail.com</email>
             <uri>https://github.com/azurepx</uri>
         </author>
+        <category label="algorithms" term="algorithms"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hospital Visit]]></title>
