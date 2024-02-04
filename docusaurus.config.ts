@@ -115,10 +115,10 @@ const config: Config = {
               label: 'Dev',
               href: 'https://dev.to/azurep'
             },
-            // {
-            //   label: 'X',
-            //   href: 'https://twitter.com/azureppx'
-            // },
+            {
+              label: 'X',
+              href: 'https://twitter.com/azureppx'
+            },
             {
               label: 'MtF Hub',
               href: 'https://hub.mtf.party'
