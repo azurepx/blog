@@ -1,6 +1,6 @@
 ---
 title: 202. Happy Number
-tags: ['math', 'hashmap']
+tags: ['math', 'hashmap', 'fast-slow-pointer']
 ---
 
 [![Problem on Leetcode](https://img.shields.io/badge/leetcode-sign)](https://leetcode.com/problems/happy-number/)
@@ -50,15 +50,71 @@ Output: false
 // Time Complexity: O(log n)
 // Space Complexity: O(log n)
 function isHappy(n: number): boolean {
-  return n <= 4? n === 1: isHappy(sumOfSquaresDigits(n));
+  return n <= 4? n === 1: isHappy(bitSquareSum(n));
 };
 
-const sumOfSquaresDigits = (n: number): number => {
+const bitSquareSum = (n: number): number => {
   let sum = 0;
 
   while (n > 0) {
     sum += Math.pow(n % 10, 2);
     n = Math.floor(n / 10);
+  }
+
+  return sum;
+}
+```
+
+```ts
+// Method 2: using hashmap
+// Time Complexity: O(log n)
+// Space Complexity: O(log n)
+var isHappy = function(n) {
+  const seen = new Set;
+
+  while (n !== 1) {
+    seen.add(n);
+    n = bitSquareSum(n);
+    if (seen.has(n)) return false;
+  }
+
+  return true;
+};
+
+const bitSquareSum = (n: number): number => {
+  let sum = 0;
+
+  while (n > 0) {
+    sum += Math.pow(n % 10, 2);
+    n = Math.floor(n / 10);   
+  }
+
+  return sum;
+}
+```
+
+```ts
+// Method 3: using fast-slow pointer
+// Time Complexity: O(log n)
+// Space Complexity: O(1)
+var isHappy = function(n) {
+  let slow = n;
+  let fast = bitSquareSum(n);
+
+  while (fast !== 1 && slow !== fast) {
+    slow = bitSquareSum(slow);
+    fast = bitSquareSum(bitSquareSum(fast));
+  }
+
+  return fast === 1;
+};
+
+const bitSquareSum = (n: number): number => {
+  let sum = 0;
+
+  while (n > 0) {
+    sum += Math.pow(n % 10, 2);
+    n = Math.floor(n / 10);   
   }
 
   return sum;
