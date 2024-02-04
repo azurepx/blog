@@ -3,11 +3,11 @@ title: 219. Contains Duplicate II
 tags: ['array', 'hash table', 'sliding window']
 ---
 
-[![Problem on Leetcode](https://img.shields.io/badge/leetcode-sign)](https://leetcode.com/problems/contains-duplicate-ii/)
+[![Problem on Leetcode](https://img.shields.io/badge/leetcode-FFA116)](https://leetcode.com/problems/contains-duplicate-ii/)
 
-![easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen.svg)
-<!-- ![medium](https://img.shields.io/badge/Difficulty-Medium-yellow.svg) -->
-<!-- ![hard](https://img.shields.io/badge/Difficulty-Hard-red.svg) -->
+![easy](https://img.shields.io/badge/Difficulty-Easy-5BCEFA.svg)<br />
+<!-- ![medium](https://img.shields.io/badge/Difficulty-Medium-F5A9B8.svg)<br /> -->
+<!-- ![hard](https://img.shields.io/badge/Difficulty-Hard-FFFFFF.svg)<br /> -->
 
 Given an integer array nums and an integer k, return true if there are two distinct indices i and j in the array such that `nums[i] == nums[j]` and `abs(i - j) <= k`.
 

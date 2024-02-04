@@ -3,11 +3,11 @@ title: 242. Valid Anagram
 tags: ['array', 'string', 'sorting', 'hash table']
 ---
 
-[![Problem on Leetcode](https://img.shields.io/badge/leetcode-sign)](https://leetcode.com/problems/valid-anagram/)
+[![Problem on Leetcode](https://img.shields.io/badge/leetcode-FFA116)](https://leetcode.com/problems/valid-anagram/)
 
-![easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen.svg)
-<!-- ![medium](https://img.shields.io/badge/Difficulty-Medium-yellow.svg) -->
-<!-- ![hard](https://img.shields.io/badge/Difficulty-Hard-red.svg) -->
+![easy](https://img.shields.io/badge/Difficulty-Easy-5BCEFA.svg)<br />
+<!-- ![medium](https://img.shields.io/badge/Difficulty-Medium-F5A9B8.svg)<br /> -->
+<!-- ![hard](https://img.shields.io/badge/Difficulty-Hard-FFFFFF.svg)<br /> -->
 
 Given two strings s and t, return true if t is an anagram of s, and false otherwise.
 

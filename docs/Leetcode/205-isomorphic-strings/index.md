@@ -3,11 +3,11 @@ title: 205. Isomorphic Strings
 tags: ['string', 'hash table']
 ---
 
-[![Problem on Leetcode](https://img.shields.io/badge/leetcode-sign)](https://leetcode.com/problems/isomorphic-strings/)
+[![Problem on Leetcode](https://img.shields.io/badge/leetcode-FFA116)](https://leetcode.com/problems/isomorphic-strings/)
 
-![easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen.svg)
-<!-- ![medium](https://img.shields.io/badge/Difficulty-Medium-yellow.svg) -->
-<!-- ![hard](https://img.shields.io/badge/Difficulty-Hard-red.svg) -->
+![easy](https://img.shields.io/badge/Difficulty-Easy-5BCEFA.svg)<br />
+<!-- ![medium](https://img.shields.io/badge/Difficulty-Medium-F5A9B8.svg)<br /> -->
+<!-- ![hard](https://img.shields.io/badge/Difficulty-Hard-FFFFFF.svg)<br /> -->
 
 Given two strings s and t, determine if they are isomorphic.
 
