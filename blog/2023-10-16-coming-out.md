@@ -1,20 +1,20 @@
 ---
-title: 出柜
+title: Coming out
 date: 2023-10-16
 authors: azurep
 ---
 
-最近心里已经基本崩溃了，于是试着跟一位朋友出柜，这样自己似乎能好过一点。
+Recently, I have been mentally exhausted, so I tried coming out to a friend, hoping it would make me feel a little better.
 
-当我怀着忐忑的心情把一切告诉她时，出乎意料的，她马上就接受了。
+To my surprise, when I told her everything with a nervous heart, she immediately accepted it.
 
 ```
-“是指金星这样的吗？。。。”
-“是的”
-“决定了？”
-“决定了。“
+"Are you referring to being trans woman like Jinxin?"
+"Yes."
+"Have you made up your mind?"
+"I have."
 ```
 
-后来我们聊了很多很多，我说了从小的事，何时性别觉醒，怎样发现自己的不同，如何隐藏自己，喜欢怎样的人，搬出学校宿舍，休学，放弃，幡然醒悟。慢慢地，我的状态好了很多。
+Later, we talked a lot. I shared my experiences from childhood, when I realized my gender identity, how I discovered my differences, how I hid myself, what kind of people I like, why I moved out of the school dormitory, taking a break from school, giving up, and finally having an awakening. Gradually, I started feeling much better.
 
-有了目标, 就得好好活着，懂了吗？
+When you have a goal, you have to live your life well, understand yourself, and be brave enough to face the world. I hope I can be a better person in the future.
