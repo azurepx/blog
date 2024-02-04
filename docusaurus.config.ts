@@ -93,10 +93,10 @@ const config: Config = {
         {
           title: 'Docs',
           items: [
-            // {
-            //   label: 'Tutorial',
-            //   to: '/docs/intro',
-            // },
+            {
+              label: 'Algorithms',
+              to: '/docs/Algorithms/most-common-sorting-algorithms',
+            },
           ],
         },
         {
@@ -114,11 +114,7 @@ const config: Config = {
               label: 'Dev',
               href: 'https://dev.to/azurep'
             },
-            {
-              label: 'X',
-              href: 'https://twitter.com/azureppx'
-            },
-            {
+            { 
               label: 'MtF Hub',
               href: 'https://hub.mtf.party'
             },
