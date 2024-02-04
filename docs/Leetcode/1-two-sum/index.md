@@ -1,6 +1,6 @@
 ---
 title: "1. Two Sum"
-tags: ['array', 'hashmap']
+tags: ['array', 'hash table']
 ---
 
 [![Problem on Leetcode](https://img.shields.io/badge/leetcode-sign)](https://leetcode.com/problems/two-sum/)
@@ -61,7 +61,7 @@ function twoSum(nums: number[], target: number): number[] {
 ```
 
 ```ts
-// Method 2: using a map
+// Method 2: using hash table
 // Time Complexity: O(n)
 // Space Complexity: O(n)
 function twoSum(nums: number[], target: number): number[] {

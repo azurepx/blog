@@ -1,6 +1,6 @@
 ---
 title: 202. Happy Number
-tags: ['math', 'hashmap', 'fast-slow-pointer']
+tags: ['math', 'hash table', 'fast-slow-pointer']
 ---
 
 [![Problem on Leetcode](https://img.shields.io/badge/leetcode-sign)](https://leetcode.com/problems/happy-number/)
@@ -66,7 +66,7 @@ const bitSquareSum = (n: number): number => {
 ```
 
 ```ts
-// Method 2: using hashmap
+// Method 2: using hash table
 // Time Complexity: O(log n)
 // Space Complexity: O(log n)
 var isHappy = function(n) {

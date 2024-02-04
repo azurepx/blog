@@ -1,6 +1,6 @@
 ---
 title: 219. Contains Duplicate II
-tags: ['array', 'hashmap', 'sliding window', 'set']
+tags: ['array', 'hash table', 'sliding window']
 ---
 
 [![Problem on Leetcode](https://img.shields.io/badge/leetcode-sign)](https://leetcode.com/problems/contains-duplicate-ii/)
@@ -44,7 +44,7 @@ Output: false
 **Solutions**
 
 ```ts
-// Method 1: using hashmap
+// Method 1: using hash table
 // Time Complexity: O(n)
 // Space Complexity: O(n)
 function containsNearbyDuplicate(nums: number[], k: number): boolean {
