@@ -97,6 +97,10 @@ const config: Config = {
               label: 'Algorithms',
               to: '/docs/Algorithms/most-common-sorting-algorithms',
             },
+            {
+              label: 'Leetcode',
+              to: '/docs/Leetcode',
+            },
           ],
         },
         {
