@@ -2,11 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://azurepx.com/</id>
     <title>Azure Blog</title>
-    <updated>2023-10-25T00:00:00.000Z</updated>
+    <updated>2024-02-04T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://azurepx.com/"/>
     <subtitle>Azure Blog</subtitle>
     <icon>https://azurepx.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Why Learn Algorithms?]]></title>
+        <id>https://azurepx.com/2024/2/4/why-learn-algorithms</id>
+        <link href="https://azurepx.com/2024/2/4/why-learn-algorithms"/>
+        <updated>2024-02-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Four key points]]></summary>
+        <content type="html"><![CDATA[<p><strong>Four key points</strong></p>
+<ol>
+<li>Solve computational problems</li>
+<li>Prove correctioness</li>
+<li>Argue efficiency</li>
+<li>Communication</li>
+</ol>]]></content>
+        <author>
+            <name>Azure Pan</name>
+            <email>azurepan213@gmail.com</email>
+            <uri>https://github.com/azurepx</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hospital Visit]]></title>
         <id>https://azurepx.com/2023/10/25/hospital</id>

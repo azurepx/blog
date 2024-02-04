@@ -4,10 +4,25 @@
         <title>Azure Blog</title>
         <link>https://azurepx.com/</link>
         <description>Azure Blog</description>
-        <lastBuildDate>Wed, 25 Oct 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 04 Feb 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Why Learn Algorithms?]]></title>
+            <link>https://azurepx.com/2024/2/4/why-learn-algorithms</link>
+            <guid>https://azurepx.com/2024/2/4/why-learn-algorithms</guid>
+            <pubDate>Sun, 04 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Four key points]]></description>
+            <content:encoded><![CDATA[<p><strong>Four key points</strong></p>
+<ol>
+<li>Solve computational problems</li>
+<li>Prove correctioness</li>
+<li>Argue efficiency</li>
+<li>Communication</li>
+</ol>]]></content:encoded>
+            <author>azurepan213@gmail.com (Azure Pan)</author>
+        </item>
         <item>
             <title><![CDATA[Hospital Visit]]></title>
             <link>https://azurepx.com/2023/10/25/hospital</link>
