@@ -40,15 +40,14 @@ const config: Config = {
     [
       'classic',
       {
-        // docs: {
-        //   sidebarPath: './sidebars.ts',
-        //   showLastUpdateTime: true,
-        //   // Please change this to your repo.
-        //   // Remove this to remove the "edit this page" links.
-        //   // editUrl:
-        //   //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        // },
-        docs: false,
+        docs: {
+          sidebarPath: './sidebars.ts',
+          showLastUpdateTime: true,
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        },
         blog: {
           routeBasePath: '/',
           showReadingTime: true,
@@ -75,12 +74,12 @@ const config: Config = {
       },
       items: [
         // {to: '/', label: 'Blog', position: 'left'},
-        // {
-        //   type: 'docSidebar',
-        //   sidebarId: 'tutorialSidebar',
-        //   position: 'left',
-        //   label: 'Tutorial',
-        // },
+        {
+          type: 'docSidebar',
+          sidebarId: 'tutorialSidebar',
+          position: 'left',
+          label: 'Docs',
+        },
         {
           href: 'https://github.com/azurepx/blog',
           label: 'GitHub',
@@ -94,10 +93,10 @@ const config: Config = {
         {
           title: 'Docs',
           items: [
-            // {
-            //   label: 'Tutorial',
-            //   to: '/docs/intro',
-            // },
+            {
+              label: 'Algorithms',
+              to: '/docs/Algorithms/most-common-sorting-algorithms',
+            },
           ],
         },
         {
@@ -115,11 +114,7 @@ const config: Config = {
               label: 'Dev',
               href: 'https://dev.to/azurep'
             },
-            {
-              label: 'X',
-              href: 'https://twitter.com/azureppx'
-            },
-            {
+            { 
               label: 'MtF Hub',
               href: 'https://hub.mtf.party'
             },
