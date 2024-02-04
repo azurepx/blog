@@ -2,6 +2,7 @@
 title: Why Learn Algorithms?
 date: 2024-02-04
 authors: azurep
+tags: ['algorithms']
 ---
 
 **Four key points**
