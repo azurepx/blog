@@ -4,8 +4,6 @@ date: 2023-10-16
 authors: azurep
 ---
 
-<!-- translate the whole article -->
-
 Recently, I have been mentally exhausted, so I tried coming out to a friend, hoping it would make me feel a little better.
 
 To my surprise, when I told her everything with a nervous heart, she immediately accepted it.
