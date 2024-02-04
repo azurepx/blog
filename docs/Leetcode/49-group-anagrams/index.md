@@ -3,7 +3,7 @@ title: 49. Group Anagrams
 tags: ['hash table']
 ---
 
-[![Problem on Leetcode](https://img.shields.io/badge/leetcode-FFA116)](https://leetcode.com/problems/group-anagrams/)
+[![Problem on Leetcode](https://img.shields.io/badge/Leetcode-FFA116)](https://leetcode.com/problems/group-anagrams/)
 
 <!-- ![easy](https://img.shields.io/badge/Difficulty-Easy-5BCEFA.svg)<br /> -->
 ![medium](https://img.shields.io/badge/Difficulty-Medium-F5A9B8.svg)<br />

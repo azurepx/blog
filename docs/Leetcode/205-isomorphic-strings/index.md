@@ -3,7 +3,7 @@ title: 205. Isomorphic Strings
 tags: ['string', 'hash table']
 ---
 
-[![Problem on Leetcode](https://img.shields.io/badge/leetcode-FFA116)](https://leetcode.com/problems/isomorphic-strings/)
+[![Problem on Leetcode](https://img.shields.io/badge/Leetcode-FFA116)](https://leetcode.com/problems/isomorphic-strings/)
 
 ![easy](https://img.shields.io/badge/Difficulty-Easy-5BCEFA.svg)<br />
 <!-- ![medium](https://img.shields.io/badge/Difficulty-Medium-F5A9B8.svg)<br /> -->

@@ -3,7 +3,7 @@ title: 202. Happy Number
 tags: ['math', 'hash table', 'fast-slow-pointer']
 ---
 
-[![Problem on Leetcode](https://img.shields.io/badge/leetcode-FFA116)](https://leetcode.com/problems/happy-number/)
+[![Problem on Leetcode](https://img.shields.io/badge/Leetcode-FFA116)](https://leetcode.com/problems/happy-number/)
 
 ![easy](https://img.shields.io/badge/Difficulty-Easy-5BCEFA.svg)<br />
 <!-- ![medium](https://img.shields.io/badge/Difficulty-Medium-F5A9B8.svg)<br /> -->

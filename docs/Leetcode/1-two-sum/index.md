@@ -3,7 +3,7 @@ title: "1. Two Sum"
 tags: ['array', 'hash table']
 ---
 
-[![Problem on Leetcode](https://img.shields.io/badge/leetcode-FFA116)](https://leetcode.com/problems/two-sum/)
+[![Problem on Leetcode](https://img.shields.io/badge/Leetcode-FFA116)](https://leetcode.com/problems/two-sum/)
 
 ![easy](https://img.shields.io/badge/Difficulty-Easy-5BCEFA.svg)<br />
 <!-- ![medium](https://img.shields.io/badge/Difficulty-Medium-F5A9B8.svg)<br /> -->
