@@ -118,6 +118,10 @@ const config: Config = {
               label: 'Dev',
               href: 'https://dev.to/azurep'
             },
+            {
+              label: 'QQ Zone',
+              href: 'https://3765204286.qzone.qq.com/'
+            },
             { 
               label: 'MtF Hub',
               href: 'https://hub.mtf.party'
@@ -164,6 +168,7 @@ const config: Config = {
         },
       ],
       copyright: `Copyright © 2017 - ${new Date().getFullYear()} ${site.name}. Built with ❤️.`,
+
     },
     prism: {
       theme: prismThemes.github,
