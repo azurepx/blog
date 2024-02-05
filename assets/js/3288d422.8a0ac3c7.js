@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[226],{5365:e=>{e.exports=JSON.parse('{"label":"array","permalink":"/docs/tags/array","allTagsPath":"/docs/tags","count":1,"items":[{"id":"Leetcode/two-sum/index","title":"1. Two Sum","description":"Problem on Leetcode","permalink":"/docs/Leetcode/two-sum/"}],"unlisted":false}')}}]);
