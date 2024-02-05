@@ -1,13 +1,13 @@
 ---
 title: 205. Isomorphic Strings
-tags: ['string', 'hashmap']
+tags: ['string', 'hash table']
 ---
 
-[![Problem on Leetcode](https://img.shields.io/badge/leetcode-sign)](https://leetcode.com/problems/isomorphic-strings/)
+[![Problem on Leetcode](https://img.shields.io/badge/Leetcode-FFA116)](https://leetcode.com/problems/isomorphic-strings/)
 
-![easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen.svg)
-<!-- ![medium](https://img.shields.io/badge/Difficulty-Medium-yellow.svg) -->
-<!-- ![hard](https://img.shields.io/badge/Difficulty-Hard-red.svg) -->
+![easy](https://img.shields.io/badge/Difficulty-Easy-5BCEFA.svg)<br />
+<!-- ![medium](https://img.shields.io/badge/Difficulty-Medium-F5A9B8.svg)<br /> -->
+<!-- ![hard](https://img.shields.io/badge/Difficulty-Hard-FFFFFF.svg)<br /> -->
 
 Given two strings s and t, determine if they are isomorphic.
 
@@ -46,7 +46,7 @@ s and t consist of any valid ascii character.
 **Solutions**
 
 ```js
-// Method 1: using hashmap
+// Method 1: using hash table
 var isIsomorphic = function(s, t) {
   const s2t = new Map;
   const t2s = new Map;

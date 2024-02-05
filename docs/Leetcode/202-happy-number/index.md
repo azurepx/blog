@@ -1,13 +1,13 @@
 ---
 title: 202. Happy Number
-tags: ['math', 'hashmap', 'fast-slow-pointer']
+tags: ['math', 'hash table', 'fast-slow-pointer']
 ---
 
-[![Problem on Leetcode](https://img.shields.io/badge/leetcode-sign)](https://leetcode.com/problems/happy-number/)
+[![Problem on Leetcode](https://img.shields.io/badge/Leetcode-FFA116)](https://leetcode.com/problems/happy-number/)
 
-![easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen.svg)
-<!-- ![medium](https://img.shields.io/badge/Difficulty-Medium-yellow.svg) -->
-<!-- ![hard](https://img.shields.io/badge/Difficulty-Hard-red.svg) -->
+![easy](https://img.shields.io/badge/Difficulty-Easy-5BCEFA.svg)<br />
+<!-- ![medium](https://img.shields.io/badge/Difficulty-Medium-F5A9B8.svg)<br /> -->
+<!-- ![hard](https://img.shields.io/badge/Difficulty-Hard-FFFFFF.svg)<br /> -->
 
 Write an algorithm to determine if a number n is happy.
 
@@ -66,7 +66,7 @@ const bitSquareSum = (n: number): number => {
 ```
 
 ```ts
-// Method 2: using hashmap
+// Method 2: using hash table
 // Time Complexity: O(log n)
 // Space Complexity: O(log n)
 var isHappy = function(n) {
