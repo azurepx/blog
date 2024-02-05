@@ -1,6 +1,6 @@
 ---
 title: 49. Group Anagrams
-tags: ['hash table']
+tags: ['hash table', 'string', 'sorting']
 ---
 
 [![Problem on Leetcode](https://img.shields.io/badge/Leetcode-FFA116)](https://leetcode.com/problems/group-anagrams/)
@@ -40,3 +40,38 @@ strs[i] consists of lowercase English letters.
 ```
 
 **Solutions**
+
+```ts
+// Method 1: using hash table
+// Time Complexity: O(n * klogk)
+// Space Complexity: O(n * k)
+function groupAnagrams(strs: string[]): string[][] {
+  const map = new Map;
+  
+  for (let str of strs) { // O(n)
+    const key = str.split('').sort().join(''); // O(klogk)
+    map.set(key, map.has(key) ? map.get(key).concat(str): [str]);
+  }   
+
+  return [...map.values()];
+};
+```
+
+```ts
+// Method 2: using array of counters
+// Time Complexity: O(n * k)
+// Space Complexity: O(n * k)
+function groupAnagrams(strs: string[]): string[][] {
+  const map = new Map;
+  
+  for (let str of strs) { // O(n)
+    const counter = new Array(26).fill(0);
+    for (let s of str) counter[s.charCodeAt(0) - 97]++; // O(k)
+    const key = counter.toString();
+    if (!map.has(key)) map.set(key, []);
+    map.get(key).push(str);
+  }   
+
+  return [...map.values()];
+};
+```
