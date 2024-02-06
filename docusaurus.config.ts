@@ -11,8 +11,8 @@ const site = {
 
 const config: Config = {
   title: site.name,
-  tagline: 'MtF, she/her',
-  favicon: 'img/favicon.ico',
+  // tagline: 'MtF, she/her',
+  favicon: 'img/transgender_flag.ico',
 
   // Set the production url of your site here
   url: `https://${site.url}`,
