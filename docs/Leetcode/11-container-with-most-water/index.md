@@ -1,6 +1,6 @@
 ---
 title: 11. Container With Most Water
-tags: []
+tags: ['array', 'two pointers']
 ---
 
 [![Problem on Leetcode](https://img.shields.io/badge/Leetcode-FFA116)](https://leetcode.com/problems/container-with-most-water/)
