@@ -9,7 +9,7 @@ tags: ['array', 'hash table', 'two pointers', 'binary search']
 ![medium](https://img.shields.io/badge/Difficulty-Medium-F5A9B8.svg)<br />
 <!-- ![hard](https://img.shields.io/badge/Difficulty-Hard-FFFFFF.svg)<br /> -->
 
-Given a 1-indexed array of integers numbers that is already sorted in non-decreasing order, find two numbers such that they add up to a specific target number. Let these two numbers be numbers[index1] and numbers[index2] where 1 <= index1 < index2 <= numbers.length.
+Given a 1-indexed array of integers numbers that is already sorted in non-decreasing order, find two numbers such that they add up to a specific target number. Let these two numbers be numbers[index1] and numbers[index2] `where 1 <= index1 < index2 <= numbers.length1`.
 
 Return the indices of the two numbers, index1 and index2, added by one as an integer array [index1, index2] of length 2.
 
