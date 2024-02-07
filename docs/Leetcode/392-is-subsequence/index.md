@@ -1,6 +1,6 @@
 ---
 title: 125. Valid Palindrome
-tags: ['string', 'two pointers', 'regular expression']
+tags: []
 ---
 
 [![Problem on Leetcode](https://img.shields.io/badge/Leetcode-FFA116)](https://leetcode.com/problems/valid-palindrome/)
