@@ -26,17 +26,16 @@ Output: [[1,0,1],[0,0,0],[1,0,1]]
 
 ![alt text](image-1.png)
 ```
-m == matrix.length
-n == matrix[0].length
-1 <= m, n <= 200
--2^31 <= matrix[i][j] <= 2^31 - 1
+Input: matrix = [[0,1,2,0],[3,4,5,2],[1,3,1,5]]
+Output: [[0,0,0,0],[0,4,5,0],[0,3,1,0]]
 ```
 
 **Constraints:**
 ```
-n == matrix.length == matrix[i].length
-1 <= n <= 20
--1000 <= matrix[i][j] <= 1000
+m == matrix.length
+n == matrix[0].length
+1 <= m, n <= 200
+-2^31 <= matrix[i][j] <= 2^31 - 1
 ```
 
 **Follow up:**
@@ -156,4 +155,5 @@ function setZeroes(matrix: number[][]): void {
       }
     }
   }
+}
 ```
