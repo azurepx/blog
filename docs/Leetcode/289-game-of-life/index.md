@@ -102,7 +102,7 @@ const newState = (i: number, j: number, board: number[][]): State => {
 
 ```ts
 /**
- * Method: Avoid using extra space
+ * Method 2: Avoid using extra space
  * Time complexity: O(n^2)
  * Space complexity: O(1)
  * 

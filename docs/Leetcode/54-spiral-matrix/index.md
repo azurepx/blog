@@ -138,10 +138,7 @@ function spiralOrder(matrix: number[][]): number[] {
 
   return result;
 }
-```
 
-
-```ts
 type Direct = number[];
 type Coordinate = {
   dx: number,
