@@ -3,7 +3,7 @@ title: 452. Minimum Number of Arrows to Burst Balloons
 tags: ['array', 'interval', 'stack', 'greedy']
 ---
 
-[![Problem on Leetcode](https://img.shields.io/badge/Leetcode-FFA116)](https://leetcode.com/problems/452-minimum-number-of-arrows-to-burst-balloons/)
+[![Problem on Leetcode](https://img.shields.io/badge/Leetcode-FFA116)](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)
 
 <!-- ![easy](https://img.shields.io/badge/Difficulty-Easy-5BCEFA.svg)<br /> -->
 ![medium](https://img.shields.io/badge/Difficulty-Medium-F5A9B8.svg)<br />

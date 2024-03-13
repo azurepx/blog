@@ -22,7 +22,7 @@ Each range `[a,b]` in the list should be output as:
 
 
 
- *Example 1:**
+**Example 1:**
 
 ```
 Input: nums = [0,1,2,4,5,7]
