@@ -1,6 +1,6 @@
 ---
 title: 228. Summary Ranges
-tags: ['array', 'two pointers']
+tags: ['array', 'two pointers', 'interval']
 ---
 
 [![Problem on Leetcode](https://img.shields.io/badge/Leetcode-FFA116)](https://leetcode.com/problems/summary-ranges/)

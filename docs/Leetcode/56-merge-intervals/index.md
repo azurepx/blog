@@ -1,6 +1,6 @@
 ---
 title: 56. Merge Intervals
-tags: ['array', 'two pointers', 'stack']
+tags: ['array', 'two pointers', 'stack', 'interval']
 ---
 
 [![Problem on Leetcode](https://img.shields.io/badge/Leetcode-FFA116)](https://leetcode.com/problems/merge-intervals/)
@@ -13,7 +13,7 @@ Given an array of intervals where `intervals[i] = [starti, endi]`, merge all ove
 
 
 
- *Example 1:**
+**Example 1:**
 
 ```
 Input: intervals = [[1,3],[2,6],[8,10],[15,18]]
