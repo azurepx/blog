@@ -3,7 +3,7 @@ title: 57. Insert Interval
 tags: ['array', 'two pointers', 'stack', 'interval']
 ---
 
-[![Problem on Leetcode](https://img.shields.io/badge/Leetcode-FFA116)](https://leetcode.com/problems/merge-intervals/)
+[![Problem on Leetcode](https://img.shields.io/badge/Leetcode-FFA116)](https://leetcode.com/problems/insert-interval/)
 
 <!-- ![easy](https://img.shields.io/badge/Difficulty-Easy-5BCEFA.svg)<br /> -->
 ![medium](https://img.shields.io/badge/Difficulty-Medium-F5A9B8.svg)<br />
