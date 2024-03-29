@@ -1,5 +1,6 @@
 ---
 title: Most common sorting algorithms
+slug: /algorithms/most-common-sorting-algorithms
 ---
 
 ## Introduction
