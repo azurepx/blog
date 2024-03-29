@@ -1,6 +1,6 @@
 ---
 title: "1528. Shuffle String"
-tags: []
+tags: ['Array', 'String']
 ---
 
 [![Problem on Leetcode](https://img.shields.io/badge/Leetcode-FFA116)](https://leetcode.com/problems/shuffle-string/)
