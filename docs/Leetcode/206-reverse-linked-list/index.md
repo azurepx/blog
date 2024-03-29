@@ -1,6 +1,6 @@
 ---
 title: "206. Reverse Linked List"
-tags: []
+tags: ['Linked List', 'Recursion']
 ---
 
 [![Problem on Leetcode](https://img.shields.io/badge/Leetcode-FFA116)](https://leetcode.com/problems/reverse-linked-list/)
